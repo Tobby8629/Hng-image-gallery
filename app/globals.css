@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.slow img{
+  transition: .6s;
+}
+
+.slow:hover .text {
+   opacity: 1; 
+}
+
+.slow:hover .pic {
+  filter: brightness(0.3);
+}
