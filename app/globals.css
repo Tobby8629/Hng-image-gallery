@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;400;500&family=Barlow:wght@200;300;400;500&family=Lobster+Two:ital@1&family=Manrope:wght@200;300;400;500;600;700&family=Montserrat:wght@100;300;400;500;600;700&family=Murecho:wght@200;300;400;600;700&family=Pacifico&family=Pinyon+Script&family=Poppins:wght@300;400;500;600;700&family=Tangerine:wght@400;700&family=Ubuntu:wght@300;400;700&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
 
 :root {
   --foreground-rgb: 0, 0, 0;
@@ -37,3 +41,12 @@ body {
 .slow:hover .pic {
   filter: brightness(0.3);
 }
+
+.curve {
+  font-family: 'Tangerine', cursive;
+}
+
+.poppins {
+  font-family: 'Poppins', sans-serif;
+}
+
