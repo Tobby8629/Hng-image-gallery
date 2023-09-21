@@ -1,12 +1,5 @@
 import { useState } from 'react';
 import Imag from '../../public/Images'
-import { DragDropContext, Draggable, Droppable } from 'react-beautiful-dnd';
-import {
-  GridContextProvider,
-  GridDropZone,
-  GridItem,
-  swap,
-} from "react-grid-dnd";
 import { DndContext, closestCenter } from '@dnd-kit/core';
 import { SortableContext, arrayMove, verticalListSortingStrategy } from '@dnd-kit/sortable';
 import Each from '../Each';
