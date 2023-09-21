@@ -26,7 +26,7 @@ const Images = ({word}) => {
     <>
     {lists.length <= 0 ? 
       <div className=' h-[100vh] flex justify-center items-center px-2 lg:w-9/12 lg:mx-auto'>
-        <h2 className='text-white text-2xl lg:text-4xl text-center'>sorry... I Couldn't find your search, but i can get your next search...</h2>
+        <h2 className='text-white text-2xl lg:text-4xl text-center'>sorry... I Couldn&apos;t find your search, but i can get your next search...</h2>
       </div> :
     <section className=" w-11/12 mx-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" >
     <DndContext collisionDetection={closestCenter} onDragEnd={onDragEnd}>
