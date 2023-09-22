@@ -6,7 +6,7 @@ const Image = () => {
     return ( 
       <main className='min-h-screen bg-black text-white'>
         <NavBar free={setword}/>
-        <Images word={word}/>
+        <Images word={word.toLocaleLowerCase()}/>
       </main>
      );
 }
