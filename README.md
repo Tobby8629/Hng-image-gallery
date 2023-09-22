@@ -29,7 +29,7 @@
 
 ## Live Demo <a name="live-demo"></a>
 
-Click [here](https://Image-Gallery-hng.vercel.app/) to get the project's live demo.
+Click [here](https://hng-image-gallery-kohl.vercel.app/) to get the project's live demo.
 
 
 ## 🛠 Built With <a name="built-with"></a>
