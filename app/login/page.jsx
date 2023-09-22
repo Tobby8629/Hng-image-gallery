@@ -21,7 +21,7 @@ const Login = () => {
           )
         }
      }
-     const[user, setuser] = useState({ email: '', password: ''})
+     const[user, setuser] = useState({ email: 'user@example.com', password: '1password'})
     return ( 
       <section className=" min-h-screen bg-black flex flex-col justify-center items-center"> 
             <h2 className="text-white poppins my-3 md:text-xl lg:text-4xl">Login to <span className=" text-red-600 text-3xl curve mx-1 lg:text-6xl"> Image Gallery</span></h2>

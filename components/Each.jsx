@@ -2,11 +2,11 @@ import { useSortable } from "@dnd-kit/sortable";
 import {CSS} from "@dnd-kit/utilities"
 
 const Each = ({image}) => {
-    const {attributes, listeners,setNodeRef,transform,transition} = useSortable({id: image.id});
+    const {attributes, listeners,setNodeRef,transform,transition,isDragging} = useSortable({id: image.id});
     const style = {transition, transform: CSS.Transform.toString(transform)}
 
     return ( 
-      <div ref={setNodeRef} style={style} {...attributes} {...listeners}  key={image.id}>
+      <div ref={setNodeRef} style={style} {...attributes} {...listeners}  key={image.id} className={`${isDragging?'opacity-50 bg[rgba(0,0,0,0.8)]': 'opacity-100'}`}>
         <div className="gap-1 md:h-[30rem] lg:h-[35rem] xl:h-[30rem] mr-4 my-4 duration-100 slow relative"> 
             <img src={image.image} alt={image.name} className='w-full h-full pic'/>
             <div className='text opacity-10'>
