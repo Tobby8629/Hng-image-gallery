@@ -33,7 +33,7 @@ const Images = ({word}) => {
       <div className=' h-[100vh] flex justify-center items-center px-2 lg:w-9/12 lg:mx-auto'>
         <h2 className='text-white text-2xl lg:text-4xl text-center'>sorry... I Couldn&apos;t find your search, but i can get your next search...</h2>
       </div> :
-    <section className=" w-11/12 mt-12 py-3 mx-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4" >
+    <section className=" w-11/12 mt-12 md:mt-20 pt-3 md:pt-14 mx-auto grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 justify-center" >
     <DndContext collisionDetection={closestCenter} onDragEnd={onDragEnd} sensors={sensors}>
       <SortableContext items={listItems} strategy={verticalListSortingStrategy}>
        {lists.map((e)=>(

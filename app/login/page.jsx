@@ -27,9 +27,9 @@ const Login = () => {
             <h2 className="text-white poppins my-3 md:text-xl lg:text-4xl">Login to <span className=" text-red-600 text-3xl curve mx-1 lg:text-6xl"> Image Gallery</span></h2>
             <FontAwesomeIcon icon={faUser} className=" text-gray-500 text-9xl" />
             <form onSubmit={(event)=>submituser(event)} className="flex flex-col w-3/4 md:w-2/6 my-5">
-            <input className="my-2 p-3 w-full" required type="email" placeholder="enter your email" value={user.email}  onChange={(e) => setuser({...user, email: e.target.value })} />
-            <input className="my-2 p-3 w-full" required type='password' placeholder="password" value={user.password}  onChange={(e) => setuser({...user, password: e.target.value })}/>
-            <button type='submit' className="bg-white text-base w-1/2 p-2 mx-auto">sign up</button>
+            <input className="my-2 p-3 w-full text-black" required type="email" placeholder="enter your email" value={user.email}  onChange={(e) => setuser({...user, email: e.target.value })} />
+            <input className="my-2 p-3 w-full text-black" required type='password' placeholder="password" value={user.password}  onChange={(e) => setuser({...user, password: e.target.value })}/>
+            <button type='submit' className="bg-white text-black text-base w-1/2 p-2 mx-auto">sign up</button>
           </form>
       </section>
     );
