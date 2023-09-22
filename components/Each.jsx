@@ -10,7 +10,7 @@ const Each = ({image}) => {
         <div className="gap-1 h-[12rem] md:h-[30rem] lg:h-[35rem] xl:h-[30rem] my-4 duration-100  bg-white rounded-md"> 
             <img src={image.image} alt={image.name} className='w-full h-5/6 pic rounded-t-md lg:rounded-t-lg'/>
             <div className='text h-1/6 flex items-center px-1 md:px-2'>
-              <p className='text-black text-xs md:text-xl capitalize'>{image.name}</p>
+              <p className='text-black text-xs md:text-xl capitalize poppins'>{image.name}</p>
             </div>
         </div>
       </div> 
